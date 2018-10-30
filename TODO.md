@@ -2,9 +2,15 @@
 
 #### Basic Improvments (requirements)
 
-- [ ] create indivdiual items
-- [ ] delete individual items
-- [ ] edit individual items
+- [ ] **create indivdiual items**
+  * check for duplicate data
+  * create a new `div` for each item
+  * time stamp each item
+- [ ] **delete individual items**
+  * append an `<a>` tag to each `div` with a link to delete the item
+- [ ] **edit individual items**
+  * append an `<a>` tag to each `div` with a link to edit the item
+  * when editing an item, display an input box with the original text
 
 ##### Notes
 - [ ] Keep DOM and localStorage matching 
@@ -32,4 +38,7 @@
 - [ ] bootstrap/material (css library)
 
 #### My Spin
-(to be filled out by you)
+- [ ] allow the user to post formatted code
+- [ ] create a confirmation box/dialog when the user deletes an item
+- [ ] make the app look pretty utilizing css and bootstrap
+- [ ] transform time stamp into human readable format
