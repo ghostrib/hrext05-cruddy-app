@@ -1,4 +1,4 @@
-var ghost = {};
+const ghost = {};
 
 ghost.counter = function() {
   var i = -1;
@@ -71,7 +71,7 @@ $(document).ready(function() {
   });
   
   $('#clear').click(function() {
-    if(localStorage.length > 0){
+    if(JSON.parse(localStorage.notes).length > 0){
       if (window.confirm('This will clear all items.\nAre you sure you want to do this?')) {
         localStorage.clear();
         while (ul.firstChild) {
