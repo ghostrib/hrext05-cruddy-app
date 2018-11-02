@@ -1,15 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>HREXT05 Cruddy App</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="app.css">
-  </head>
-  <body>
-    <input type="text" class="text-input" id="theKey" placeholder="Enter some text">
-    <button class="add-text-btn">Add text</button>
-    <button class="clear-cache-btn">Clear Entries</button>
-    <div class="show-text"></div>
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HREXT05 Cruddy App</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form class='form'>
+      <input id="input" type="text" placeholder="Type here.." autofocus>
+    </form>
+    <h3>Notes</h3>
+    <ul></ul>
+    <button id='clear'>Clear All</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+
 </html>
+
+
+
+
